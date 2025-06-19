@@ -1,6 +1,6 @@
-# Posture-Informed Muscular Force Learning for Robust Hand Pressure Estimation
 
-This repository contains the core code for our hand pressure estimation framework, which enhances sEMG signals through 3D hand posture information. This project includes data processing, model training, and evaluation scripts.
+
+
 
 ## Getting Started
 
@@ -18,12 +18,6 @@ Ensure you have Python and the necessary libraries installed, including:
 - mediapipe
 
 ### Dataset
-
-1. **Download the dataset**: Download the dataset for 21 participants from [Dropbox](https://www.dropbox.com/scl/fo/m7qye1l3ii6hlwgzlajyv/ADhaUZvH2eDJ3ggmGAlN5k0?rlkey=eyt5gs66uimhiw3dismnylamw&e=1&st=rnrefyzz&dl=0).
-- The `dataset.zip` file contains data from a total of 21 participants.
-- For each participant, data was collected across 3 sessions, resulting in 3 separate session folders per participant.
-- Inside each session folder, raw data for `emg`, `angles`, `fsr`, and `pps` was collected for a total of 21 actions, each recorded for 30 seconds.
-2. **Move the dataset**: Extract the downloaded dataset and move the `Dataset/` folders to the project directory. The directory should be:
 ```
 Dataset/
   User1/
@@ -34,7 +28,6 @@ Dataset/
   ...
   User21/
 ```
-
 ### Usage
 
 #### Step 1: Preprocess the Data
